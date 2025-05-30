@@ -1,4 +1,4 @@
-#Simple REST API (Typescript + Express)
+#Simple REST API (Typescript + Express) for Error Handling and Validation
 
 ##Instal: 
 npm install - for dependencies
@@ -11,8 +11,17 @@ npm start - runs the compiled JavaScript using Node.js
 
 /  - Welcome message 
 
-GET - /items - get all items
+GET - /items - get all items   
 
-POST - /items - to create a new item  | can be tested via Postman
+GET - /items/:id - get a specific item
+
+POST - /items - to create a new item 
+
+PUT - /items/:id - update a specific item
+
+DELETE - /items/:id - delete a specific item
+
+
+Everything can be tested via Postman... 
 
 
